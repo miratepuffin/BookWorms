@@ -17,6 +17,8 @@ import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.ml.feature.{HashingTF, IDF, RegexTokenizer}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.ml.feature.StopWordsRemover
+import scala.collection.mutable.WrappedArray
+
 object bookSearchEngine {
   // define the type used to store the list of documents that come in
 

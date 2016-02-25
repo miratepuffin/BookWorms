@@ -1,3 +1,5 @@
 project
 target
 IR
+sbt
+spark-mllib_2.10-1.6.0.jar
